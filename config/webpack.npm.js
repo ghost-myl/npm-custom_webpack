@@ -21,7 +21,7 @@ const cssLoaders = [
   },
 ];
 module.exports = {
-  entry: './src/index.jsx',
+  entry: './src/index.tsx',
   mode: process.env.NODE_ENV,
   /** 多入口:   特点:如果有一个入口最终只有一个bundle
    *                如果有两个入口就有两个bundle

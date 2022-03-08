@@ -10,5 +10,5 @@ custom.d.ts
 less.d.ts
 tsconfig.json
 /config/*
-# /dist
+/dist/*
 /node_modules/
