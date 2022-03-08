@@ -1,0 +1,100 @@
+{
+  "name": "new_webpack_action2",
+  "version": "1.0.24",
+  "description": "",
+  "main": "dist/index.js",
+  "private": false,
+  "flies": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "export NODE_ENV=development && npx webpack serve --config config/webpack.dev.js",
+    "build": "export NODE_ENV=production && npx webpack   --config config/webpack.prod.js",
+    "npm": "export NODE_ENV=production && npx webpack   --config config/webpack.npm.js"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "npm"
+  ],
+  "author": "919022572@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@ant-design/icons": "4.7.0",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@types/lodash": "^4.14.178",
+    "@types/react": "^17.0.19",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "autoprefixer": "^10.3.2",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-import": "^1.13.3",
+    "css-loader": "^6.2.0",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-externals-plugin": "^3.8.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "lodash": "^4.17.21",
+    "mini-css-extract-plugin": "^2.2.0",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^7.4.2",
+    "sass": "^1.38.0",
+    "sass-loader": "^12.1.0",
+    "speed-measure-webpack-plugin": "^1.5.0",
+    "style-loader": "^3.2.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "terser-webpack-plugin": "^5.1.4",
+    "thread-loader": "^3.0.4",
+    "ts-loader": "^9.2.5",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.5",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-merge": "^5.8.0",
+    "workbox-webpack-plugin": "^6.4.2"
+  },
+  "dependencies": {
+    "antd": "4.18.8",
+    "axios": "^0.26.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "5.2.0"
+  },
+  "peerDependencies": {
+    "@ant-design/icons": "4.7.0",
+    "antd": "4.18.8",
+    "bizcharts": "4.1.15",
+    "rc-footer": "0.6.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-router-dom": "5.2.0"
+  },
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  }
+}
